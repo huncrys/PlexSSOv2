@@ -2,5 +2,4 @@ variables:
   CI_DOCKERHUB_IMAGE: huncrys/plexsso
 
 include:
-  - component: $CI_SERVER_FQDN/oaklab/ci-templates/kaniko-build@~latest
-  - component: $CI_SERVER_FQDN/oaklab/ci-templates/manifest-tool-manifest@~latest
+  - component: $CI_SERVER_FQDN/oaklab/ci-templates/docker-publish@~latest
