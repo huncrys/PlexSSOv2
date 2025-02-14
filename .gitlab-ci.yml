@@ -3,3 +3,8 @@ variables:
 
 include:
   - component: $CI_SERVER_FQDN/oaklab/ci-templates/docker-publish@~latest
+    inputs:
+      architectures:
+        - amd64
+        - arm64
+        - arm/v7
